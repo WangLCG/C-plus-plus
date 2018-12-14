@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ffmpegcmd>
+    <Params> 
+        <Channel  Num = "ch01" /> 
+        <Crop_Size Width="704" Height="576" X="0" Y="27" />
+        <OutPut_Size Width_Out="352" Height_Out="288"/>
+    </Params>
+    <Params> 
+        <Channel  Num = "ch02" /> 
+        <Crop_Size Width="704" Height="576" X="0" Y="27" />
+        <OutPut_Size Width_Out="352" Height_Out="288"/>
+        <Crop_Size_1 Width="704" Height="576" X="633" Y="27" />
+        <OutPut_Size_1 Width_Out="352" Height_Out="288"/>
+    </Params>
+    <Params1> 
+        <Channel  Num = "ch03" /> 
+        <Crop_Size Width="704" Height="576" X="0" Y="27" />
+        <OutPut_Size Width_Out="352" Height_Out="288"/>
+    </Params1>
+</ffmpegcmd>
